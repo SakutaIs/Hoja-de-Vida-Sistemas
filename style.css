@@ -1,0 +1,74 @@
+*{font-family: 'Kalam', cursive;
+}
+body{
+    margin: 0;
+}
+.informacion{
+    width: 700px;
+    height: 40%;
+    background-color: #F39C12;
+}
+
+.informacion h1{font-size: 50px;
+    text-align: center;
+    color: #DAF7A6 ;
+    margin: 0px;
+}
+.informacion img{
+    width: 300px;
+    margin: auto;
+    /*modificando elementos en linea a bloque*/
+    display: block;
+    border-radius: 50%;
+}
+
+.informacion h2{
+text-align: center;
+color: #DAF7A6;
+background: #fff;
+width: 200px;
+margin: auto;
+}
+.informacion ul{
+    width: 100%;
+    text-align:center;
+
+}
+
+.informacion ul li{
+display: inline-block;
+width: 150px;   
+background-color: #DAF7A6;
+padding: 10px;
+margin: 0;
+border: 2px solid #fff;
+}
+
+.skills{
+    background: #F39C12;
+    height: 50vh;
+    margin: 0;
+}
+.skills h3 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.skills ul{
+    width: 500px;
+    margin: auto;
+}
+.skills ul li{
+    list-style: none;
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    font-style: normal;
+    display: inline-block;
+}
+.skills ul li img{
+    width: 50px;
+    display: block;
+    margin: auto;
+}
